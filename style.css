@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*========= GENERAL CSS FOR ALL============= */
+
+body{
+    background-color: #272a32;
+}
+
+.ring{
+    border: 1px solid red;
+}
+
+.flexonly{
+    display: flex;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justifysa {
+  justify-content: space-around;
+}
+
+.justifysb {
+  justify-content: space-between;
+}
+
+.justifyse {
+  justify-content: space-evenly;
+}
+
+/*========= GENERAL CSS FOR ALL============= */
+
+header, main {
+  position: absolute;
+  width: 100vw;
+  top: 0px;
+}
+
+nav{
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: black; */
+  background: rgba(3, 3, 3, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px 50px;
+  margin-top: 1%;
+}
+
+main{
+  margin-top: 5%;
+}
+
+h1{
+    color: white;
+}
+
+.menu {
+  margin-left: 10%;
+  border: none;
+  border-radius: 10px;
+  
+  outline: none;
+}
+
+.menu:active{
+    outline: none;
+    border: none;
+}
+
+select{
+    padding: 2%;
+    border-radius: 8px;
+    background: rgba( 255, 255, 255, 0.15 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    height: 40px;
+    width: 80px;
+}
+
+.roto{
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.signup{
+    background-color: #ff355c;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+}
+
+.background{
+    background: #ff355c;
+    height: 500px;
+    width: 500px;
+}
+
+section{
+    background-color: #ff355c;
+   
+    height: 700px;
+    width: 100px;
+     
+}
+
+.alltext{
+    width: 65%;
+    margin: 50px auto;
+    color: white;
+    font-size: 60px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.alltext1{
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+span{
+    font-weight: bold;
+}
